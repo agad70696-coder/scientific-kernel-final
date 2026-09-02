@@ -1,0 +1,6 @@
+{
+  "QPC": "1266 passages - thematic segmentation",
+  "Questions": "AyaTEC v1.2 - 251 questions",
+  "QRels": "1599 gold pairs, passage_id -1 = zero-answer, 37 zero questions",
+  "source": "https://gitlab.com/bigirqu/quranqa-2023"
+}

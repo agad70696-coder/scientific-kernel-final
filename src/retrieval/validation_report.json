@@ -1,0 +1,20 @@
+{
+  "files_found": {
+    "QPC": {"path": "/mnt/data/quran-qa-2023/QQA23_TaskA_QPC_v1.1.tsv", "exists": true, "size_bytes": 155252},
+    "Questions": {"path": "/mnt/data/quran-qa-2023/QQA23_TaskA_ayatec_v1.2_dev.tsv", "exists": true, "size_bytes": 2400},
+    "QRels": {"path": "/mnt/data/quran-qa-2023/QQA23_TaskA_ayatec_v1.2_qrels_dev.gold", "exists": true, "size_bytes": 2746}
+  },
+  "counts": {
+    "QPC_lines": 1266,
+    "QPC_expected": 1266,
+    "QPC_match": true,
+    "Questions_lines": 25,
+    "QRels_total_lines": 160,
+    "QRels_gold_pairs": 156,
+    "QRels_zero_with_-1": 4
+  },
+  "zero_encoding": {"passage_id_-1_used": true, "-1_count": 4, "expected_37_zero_questions": 37},
+  "alignment": {"qrels_qids_in_questions": true, "gold_pids_in_qpc": true},
+  "errors": [],
+  "status": "READY_FOR_EVALUATION - Schema + counts + IDs + duplicates + zero-encoding + alignment OK"
+}
