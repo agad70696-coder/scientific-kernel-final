@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+.env
+/mnt/data/quran-qa-2023/
+*.tsv
+*.gold
